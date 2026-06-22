@@ -1,0 +1,151 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  height: 100vh;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* main container */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* nav bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  padding: 20px;
+  background-color: aquamarine;
+  font-size: 20px;
+  width: 100%;
+
+  & ul {
+    display: flex;
+    gap: 10px;
+  }
+  & li {
+    list-style: none;
+  }
+  & a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family:
+      "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+}
+.btns {
+  & button {
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: black;
+    text-shadow: 1px 1px 0px white;
+  }
+}
+/* hero */
+.hero {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 50px;
+  font-size: 20px;
+  line-height: 1.6;
+  background-color: aliceblue;
+}
+.hero {
+  & img {
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+  }
+  & h1 {
+    font-style: italic;
+    font-family: "Courier New", Courier, monospace;
+  }
+  & p {
+    text-shadow: 1px 1px 0px white;
+  }
+}
+/* portfolio */
+.portfolio {
+  display: flex;
+  width: 100%;
+  flex: 1;
+}
+/* card container */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+/* cards */
+.card {
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 300px;
+  box-shadow: 1px 2px 0px black;
+}
+.card img {
+  object-fit: contain;
+  width: 100%;
+}
+.card-content {
+  padding: 10px;
+  text-align: center;
+  line-height: 2;
+}
+/* footer */
+.footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid black;
+  background-color: aqua;
+  font-size: 20px;
+}
+.footer {
+  & ul {
+    padding: 10px;
+    line-height: 1.6;
+    font-weight: 600;
+    text-shadow: 1px 0p 0px black;
+  }
+  & li {
+    list-style: none;
+  }
+  & a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  & p {
+    padding: 10px;
+    font-size: 20px;
+  }
+}
