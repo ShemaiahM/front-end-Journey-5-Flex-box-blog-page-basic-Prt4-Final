@@ -62,8 +62,10 @@ front-end-Journey-5-Flex-box-blog-page-basic/ webpage basic blog practice(4th on
   width: 100%;
   flex-wrap: wrap;
   padding: 40px;`
-/* cards */
-.card {
+
+  
+`/* cards */`
+- `.card {
   margin: 20px;
   border: 1px solid black;
   border-radius: 20px;
@@ -73,8 +75,9 @@ front-end-Journey-5-Flex-box-blog-page-basic/ webpage basic blog practice(4th on
   text-align: center;
   flex-direction: column;
   width: 300px;
-  box-shadow: 1px 2px 0px black;
-}`
+  box-shadow: 1px 2px 0px black;`
+
+
 -- for the cards i used a utilty class instead of making every one.
   -- I have also used short form and more precise and clean code nesting in the css styles instead of individually separating the ul, li and a tags.
   -- If you look at my code for CSS yo can see what i have documented.
