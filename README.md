@@ -9,19 +9,19 @@ front-end-Journey-5-Flex-box-blog-page-basic/ webpage basic blog practice(4th on
   #### here are the components of the "code" written
   ##### Html
 ### Navbar Code
-- ```html
-<nav class="navbar">
-  <ul>
-    <li><a href="">home</a></li>
-    <li><a href="">about</a></li>
-    <li><a href="">projects</a></li>
-    <li><a href="">contact</a></li>
-  </ul>
-  <div class="btns">
-    <button>sign up</button>
-    <button>login</button>
-  </div>
-</nav>```
+        ```html
+            <nav class="navbar">
+          <ul>
+          <li><a href="">home</a></li>
+          <li><a href="">about</a></li>
+          <li><a href="">projects</a></li>
+          <li><a href="">contact</a></li>
+          </ul>
+        <div class="btns">
+        <button>sign up</button>
+          <button>login</button>
+          </div>
+      </nav>```
 
 - ```<footer class="footer">
   <ul>
