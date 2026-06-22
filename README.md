@@ -8,7 +8,7 @@ front-end-Journey-5-Flex-box-blog-page-basic/ webpage basic blog practice(4th on
 - In this exercise i have demonstrated the use of Html(hyper text markup language) syntax and CSS (Cascading Style Sheet) syntax and semantics.
   #### here are the components of the "code" written
   ##### Html
-<nav class="navbar">
+```<nav class="navbar">
   <ul>
     <li><a href="">home</a></li>
     <li><a href="">about</a></li>
@@ -19,16 +19,16 @@ front-end-Journey-5-Flex-box-blog-page-basic/ webpage basic blog practice(4th on
     <button>sign up</button>
     <button>login</button>
   </div>
-</nav>
+</nav>```
 
-<footer class="footer">
+```<footer class="footer">
   <ul>
     <li><a href="">Made with love</a></li>
     <li><a href="">S M</a></li>
     <li><a href="">contact me here</a></li>
   </ul>
   <p>&copy; all rights reserved</p>
-</footer>
+</footer>```
 
   
 ##### Css
