@@ -8,7 +8,7 @@ front-end-Journey-5-Flex-box-blog-page-basic/ webpage basic blog practice(4th on
 - In this exercise i have demonstrated the use of Html(hyper text markup language) syntax and CSS (Cascading Style Sheet) syntax and semantics.
   #### here are the components of the "code" written
   ##### Html
-  - `      <nav class="navbar">
+  -*** `      <nav class="navbar">
         <ul>
           <li><a href="">home</a></li>
           <li><a href="">about</a></li>
@@ -27,9 +27,11 @@ front-end-Journey-5-Flex-box-blog-page-basic/ webpage basic blog practice(4th on
       <li><a href="">contact me here</a></li>
     </ul>
     <p>&#169 all right reserved</p>
-  </footer>`
+  </footer>`***
+
+  
 ##### Css
-- `/* nav bar */
+-*** `/* nav bar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -53,18 +55,18 @@ front-end-Journey-5-Flex-box-blog-page-basic/ webpage basic blog practice(4th on
     font-family:
       "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
-}`
--`/* card container */
+}`***
+-***`/* card container */
 .card-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   flex-wrap: wrap;
-  padding: 40px;`
+  padding: 40px;` ***
 
   
-`/* cards */`
+***`/* cards */`
 - `.card {
   margin: 20px;
   border: 1px solid black;
@@ -75,7 +77,7 @@ front-end-Journey-5-Flex-box-blog-page-basic/ webpage basic blog practice(4th on
   text-align: center;
   flex-direction: column;
   width: 300px;
-  box-shadow: 1px 2px 0px black;`
+  box-shadow: 1px 2px 0px black;`***
 
 
 -- for the cards i used a utilty class instead of making every one.
