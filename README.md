@@ -9,7 +9,7 @@ front-end-Journey-5-Flex-box-blog-page-basic/ webpage basic blog practice(4th on
   #### here are the components of the "code" written
   ##### Html
 ### Navbar Code
-```html
+- ```html
 <nav class="navbar">
   <ul>
     <li><a href="">home</a></li>
@@ -23,7 +23,7 @@ front-end-Journey-5-Flex-box-blog-page-basic/ webpage basic blog practice(4th on
   </div>
 </nav>```
 
-```<footer class="footer">
+- ```<footer class="footer">
   <ul>
     <li><a href="">Made with love</a></li>
     <li><a href="">S M</a></li>
